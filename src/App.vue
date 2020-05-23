@@ -76,7 +76,7 @@ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   <v-btn
   v-on:click="panelopen" icon x-large
   style="margin-top: 10px; margin-left: 5px; position: relative; z-index: 5;">
-    <v-icon>mdi-menu-open</v-icon>
+    <v-icon>mdi-menu</v-icon>
     </v-btn>
       <transition name="slide-fade">
 <div class="sidebar" v-if="sideshow">
