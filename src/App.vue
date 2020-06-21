@@ -40,33 +40,33 @@ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     top:calc(50% - 100%/2);
     }
     70% {
-     width: 64px;
-     height: 64px;
+     width: 3.5em;
+     height: 3.5em;
      position: fixed;
-    top:calc(50% - 64px/2);
+    top:calc(50% - 3.5em/2);
     transform:scaleY(1);
     }
     80% {
       transform: translateX(-20px);
       border-radius: 100000px;
-      width: 64px;
-      height: 64px;
+      width: 3.5em;
+      height: 3.5em;
       position: fixed;
-    top:calc(50% - 64px/2);
+    top:calc(50% - 3.5em/2);
     }
     90% {
         transform:scaleY(0.01);
-        width: 64px;
-        height: 64px;
+        width: 3.5em;
+        height: 3.5em;
         position: fixed;
-    top:calc(50% - 64px/2);
+    top:calc(50% - 3.5em/2);
         transform: translateX(-60px);
   } 100%{
     display: none;
-    width: 64px;
+    width: 3.5em;
     position: fixed;
-    top:calc(50% - 64px/2);
-    height: 64px;
+    top:calc(50% - 3.5em/2);
+    height: 3.5em;
     transform: translateX(-80px);
   }
   }

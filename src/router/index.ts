@@ -2,6 +2,8 @@ import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
 import Top from '../components/Top.vue';
 import Death from '../views/Death.vue';
+import Parappow from '../views/parappow.vue';
+import ABCcomponent from '../views/ABC.vue';
 
 Vue.use(VueRouter);
 
@@ -23,6 +25,16 @@ const routes: Array<RouteConfig> = [
     path: '/death',
     name: 'Death',
     component: Death,
+  },
+  {
+    path: '/abc',
+    name: 'ABC',
+    component: ABCcomponent,
+  },
+  {
+    path: '/parappow',
+    name: 'Parappow',
+    component: Parappow,
   },
 ];
 
